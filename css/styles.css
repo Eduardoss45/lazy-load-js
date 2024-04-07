@@ -1,0 +1,47 @@
+/* Estilos gerais */
+* {
+    font-family: Arial, Helvetica, sans-serif; /* Define a fonte padrão para todo o documento */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+}
+
+body {
+    background-color: #333; /* Define a cor de fundo do corpo da página */
+}
+
+.title {
+    text-align: center; /* Alinha o texto ao centro */
+    font-size: 2rem; /* Define o tamanho da fonte */
+    padding: 2rem; /* Adiciona preenchimento interno */
+    color: #fff; /* Define a cor do texto */
+    background-color: #222; /* Define a cor de fundo */
+}
+
+/* Estilos para o contêiner das imagens */
+.container {
+    width: 90%; /* Define a largura do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+/* Estilos para cada contêiner de imagem */
+.image-container {
+    margin-bottom: 1rem; /* Adiciona espaço abaixo de cada contêiner de imagem */
+    padding-bottom: 1rem; /* Adiciona preenchimento abaixo de cada contêiner de imagem */
+    border-bottom: 1px solid #444; /* Adiciona uma borda na parte inferior */
+}
+
+/* Estilos para as imagens dentro dos contêineres */
+.image-container img {
+    background-position: center; /* Define a posição do plano de fundo da imagem */
+    background-size: cover; /* Define o tamanho do plano de fundo da imagem */
+    display: block; /* Faz com que a imagem se comporte como um bloco */
+    margin: 2rem auto 1rem; /* Adiciona margens ao redor da imagem */
+    width: 100%; /* Garante que a imagem ocupe toda a largura do contêiner pai */
+}
+
+/* Estilos para os textos descritivos das imagens */
+.image-container p {
+    text-align: center; /* Alinha o texto ao centro */
+    font-weight: bold; /* Define a espessura da fonte */
+    color: #fff; /* Define a cor do texto */
+}
